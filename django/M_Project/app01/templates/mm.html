@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="tea">
+    <table class="datas" cellspacing="0">
+    <tr>
+        <th>电影名</th>
+        <th>图片链接</th>
+        <th>评分</th>
+    </tr>
+</table>
+</form>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+{#<script src="{% static 'jquery.cookie.js' %}"></script>#}
+<script type="text/javascript">
+    var sources = []
+    function checkAll(){
+        $.ajax({
+            url:'{% url "movie" %}',
+            type:'get',
+            data:'',
+            dataType:'json',
+            success:function (res) {
+                console.log(res);
+                sources = res;
+                for(var i=0;i<sources.length;i++){
+                    var mark = `<tr class="movie">
+                    <td>${sources[i].name}
+                    <td>${sources[i].img_url}
+                    <td>${sources[i].douban_score}`;
+                    $('.datas').append(mark)
+                }
+
+
+            }
+
+        })
+
+    }
+    checkAll()
+</script>
+</html>

@@ -1,0 +1,197 @@
+.detail{
+    background:#2b2a2a;
+}
+.totals{
+    width: 1242px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.img_info{
+    width: 1242px;
+    height: 270px;
+    margin: 40px 0;
+    background: rgb(51, 51, 51);
+    border-radius: 10px;
+}
+.img_info::after{
+    content: '';
+    font-size: 0;
+    clear: both;
+    display: none;
+}
+.detailed_img{
+    width: 140px;
+    height: 210px;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+.detailed_img img{
+    width: 100%;
+    height: 100%;
+}
+.detailed_info{
+    text-align: left;
+    width: 1030px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.detailed_info_2{
+    color: #666666;
+    display: inline-block;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+.detailed_info_name{
+    font-size: 20px;
+    cursor: pointer;
+    color: #999999;
+    margin-bottom: 10px;
+}
+.detailed_info_name:hover{
+    color: #0bbe06;
+}
+.detailed_info_p{
+    width: 100px;
+    color: #999999;
+}
+.detailed_info_p:hover{
+    color: #0bbe06;
+}
+.gold1{
+    font-size: 16px;
+    background: #0bbe06;
+    color: #ffffff;
+    border-radius: 5px;
+    padding:0 3px;
+}
+.z_play_online{
+    width: 95%;
+    background: rgb(51, 51, 51);
+    padding:30px;
+    border-radius: 10px;
+}
+.online{
+    width: 100px;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.online:hover{
+    color: #0bbe06;
+}
+.online_select{
+    color: #0bbe06;;
+}
+.first_2{
+    background: green;
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px 20px;
+    display: none;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.first_2 a{
+    color: #ffffff;
+}
+.first_2:hover{
+    background: #0bbe06;
+    text-decoration: underline;
+}
+.first_2_show{
+    display: inline-block;
+}
+.movie2{
+    width:1242px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: rgb(51, 51, 51);
+    margin-top: 40px;
+}
+.movie2::after{
+    content: "0";
+    display: block;
+    clear: both;
+    font-size: 0;
+}
+.mark{
+    float: left;
+    width:170px;
+    background: rgb(42,42,42);
+    box-sizing: border-box;
+    transition: linear 0.3s;
+    border-radius: 8px;
+    margin: 25px 18.51px;
+}
+.mark:hover{
+    transform: translate(0,-8px);
+}
+.mark:hover .mov_title a{
+    color: #0bbe06;
+}
+.mark:hover img{
+    box-shadow: 0 0 10px #999999;
+}
+.like{
+    width: 170px;
+    height: 255px;
+    position: relative;
+    border-radius: 8px;
+}
+.like img{
+    border-radius: 8px;
+}
+.gold{
+    background: #0bbe06;
+    width: 26.08px;
+    height: 21px;
+    padding: 2px 4px 1px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 13px;
+    border-radius: 8px 0 5px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.episode{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #0bbe06;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px 0 8px 0;
+    text-align: center;
+    padding:  2px 0;
+    width: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mov_title{
+    width: 170px;
+    height: 80px;
+    background: rgb(42,42,42);
+    text-align: center;
+}
+.mov_title a{
+    color: #999999;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 15px;
+}
+.re_bo{
+    padding: 20px 0 0 20px;
+    font-size: 18px;
+    color: #999999;
+}

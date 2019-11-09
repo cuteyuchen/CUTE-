@@ -1,0 +1,227 @@
+.first{
+    width: 1140px;
+    height: 56.6px;
+    background: rgb(42, 42, 42);
+    margin: 0 auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.mp4{
+    background: rgb(42, 42, 42);
+    margin: 0;
+    padding: 0;
+}
+.first1{
+    margin-top: 20px;
+    height: 40px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: rgb(51, 51, 51);
+    list-style: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.rou{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.first1 a{
+    color: #999999;
+}
+h1{
+    margin: 20px 0 0 0;
+    text-align: left;
+    font-size: 36px;
+    color: #999999;
+    font-weight: normal;
+}
+.rank1{
+    width: 325px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.run{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.totals{
+    width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+.rank1>h4{
+    width: 100%;
+    height: 28px;
+    font-size: 20px;
+    color: #333333;
+    font-weight: normal;
+    box-sizing: border-box;
+    margin: 15px 0 0 0;
+    text-align: left;
+}
+small{
+    font-size: 23.4px;
+    color: #999999;
+}
+.set{
+    width: 278px;
+    height: 19px;
+    color: #444444;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: left;
+}
+.set span{
+    width: 43.36px;
+    height: 15px;
+    font-size: 12px;
+    color: #ffffff;
+    background: #ffa302;
+    padding: 1px 4px 0;
+}
+.set small{
+    width: 34.69px;
+    height: 14px;
+    color: #777777;
+    font-size: 12px;
+
+}
+tr{
+    height: 26px;
+    background: #000;
+    box-sizing: border-box;
+    color: #f6f6f6;
+    font-size: 12px;
+}
+tr a{
+    color: #f6f6f6;
+    text-decoration: none;
+    padding: 2px;
+}
+.now_r{
+    width: 610px;
+    text-align: center;
+    padding: 3px;
+}
+.moving{
+    width: 100%;
+    height: 500px;
+    background: #000;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.first_1{
+    width: 90px;
+    height: 40px;
+    background: #0bbe06;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #ffffff;
+    line-height: 40px;
+}
+.first_2{
+    background: #0bbe06;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 7px 50px 7px;
+    border: 1px solid #b1b1b1;
+    padding: 0 20px;
+    display: inline-block;
+}
+.first_2 a{
+    color: #ffffff;
+    line-height: 40px;
+}
+.first_2:hover{
+    background: green;
+    color: white;
+    text-decoration: underline;
+}
+.first_2:hover a{
+    color: white;
+}
+.movie2{
+    width:1242px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: rgb(51, 51, 51);
+    margin-top: 40px;
+}
+.movie2::after{
+    content: "0";
+    display: block;
+    clear: both;
+    font-size: 0;
+}
+.mark{
+    float: left;
+    width:170px;
+    background: rgb(42,42,42);
+    box-sizing: border-box;
+    transition: linear 0.3s;
+    border-radius: 8px;
+    margin: 30px 18.51px;
+}
+.mark:hover{
+    transform: translate(0,-8px);
+}
+.mark:hover .mov_title a{
+    color: #0bbe06;
+}
+.mark:hover img{
+    box-shadow: 0 0 10px #999999;
+}
+.like{
+    width: 170px;
+    height: 255px;
+    position: relative;
+    border-radius: 8px;
+}
+.like img{
+    border-radius: 8px;
+}
+.gold{
+    background: #0bbe06;
+    width: 26.08px;
+    height: 21px;
+    padding: 2px 4px 1px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 13px;
+    border-radius: 8px 0 5px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.episode{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #0bbe06;
+    color: white;
+    font-size: 13px;
+    border-radius: 8px 0 8px 0;
+    padding: 0 5px;
+}
+.mov_title{
+    width: 170px;
+    height: 80px;
+    background: rgb(42,42,42);
+    text-align: center;
+    line-height: 80px;
+}
+.mov_title a{
+    color: #999999;
+}
+.re_bo{
+    padding: 20px 0 0 20px;
+    font-size: 18px;
+    color: #999999;
+}
